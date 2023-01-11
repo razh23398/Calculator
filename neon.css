@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #570A57;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    color: #F806CC;
+}
+
+#container-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin: 20px;
+    border: 2px solid black;
+    height: 382px;
+    width: 400px;
+}
+.main-up-input-box{
+    overflow-x:hidden ;
+    border-style: none;
+    align-items: center;
+    justify-content: end;
+    height: 60px;
+    width: 400px;
+    background-color: #A91079;
+    border-bottom: solid 2px black;
+}
+h2 {
+    margin: 10px;
+}
+.main-down{
+    width: 400px;
+    background-color: black;
+}
+.row{
+    display: flex;
+}
+.btn{
+    border-style: none;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F806CC;
+    color: black;
+}
+.btn-operator{
+    border-style: none;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2E0249;
+    color: #fff;
+}
+.btn-size-up{
+    width: 100px;
+}
+.btn-size-down{
+    width: 75px;
+}
+.btn-pressed{
+    opacity: 0.5;
+}
+
+#container-bottom{
+    color: #F806CC;
+    text-align: center;
+}
+.instructions{
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+#container-bottom p{
+    margin: 0;
+}
+#container-bottom h3{
+    margin: 0;
+}

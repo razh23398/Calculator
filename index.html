@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5fe4c1d02e.js" crossorigin="anonymous"></script>
+    <title>Raz Calculator</title>
+</head>
+<body>
+    <div id="container-up">
+        <div>
+            <h1 class="title">Raz-Calculator</h1>
+            <div>
+                <h2 class="title">Change Style</h2>
+                <div>
+                    <button class="btn btn-size-up style-normal">Light</button>
+                    <button class="btn btn-size-up style-dark">Dark</button>
+                    <button class="btn btn-size-up style-neon">Neon</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-mid">
+        <div class="main">
+            <div class="main-up">
+                <div class="main-up-input-box">
+                    <h2 id="main-up-input"></h2>
+                </div>
+            </div>
+            <div class="main-down">
+                <div class="row">
+                    <button class="btn btn-size-up" id="one">1</button>
+                    <button class="btn btn-size-up" id="tow">2</button>
+                    <button class="btn btn-size-up" id="three">3</button> 
+                    <button class="btn-operator btn-size-up" id="div">%</button>   
+                </div>
+                <div class="row">
+                    <button class="btn btn-size-up" id="four">4</button>
+                    <button class="btn btn-size-up" id="five">5</button>
+                    <button class="btn btn-size-up" id="six">6</button>
+                    <button class="btn-operator btn-size-up" id="dubole">x</button>
+
+                </div>
+                <div class="row">
+                    <button class="btn btn-size-up" id="seven">7</button>
+                    <button class="btn btn-size-up" id="eigt">8</button>
+                    <button class="btn btn-size-up" id="nine">9</button>
+                    <button class="btn-operator btn-size-up" id="minus">-</button>
+
+                </div>
+                <div class="row">
+                    <button class="btn btn-size-down" id="zero">0</button>
+                    <button class="btn-operator btn-size-down" id="clear">C</button>
+                    <button class="btn-operator btn-size-down" id="equal">=</button>
+                    <button class="btn-operator btn-size-down" id="dot">.</button>
+                    <button class="btn-operator btn-size-up" id="add">+</button>
+                </div>
+                <div class="">
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div id="container-bottom">
+        <h3>Instructions</h3>
+        <p>How to use the <i class="fa-solid fa-keyboard"></i></p>
+        <div class="instructions">
+            <div style="margin-right: 30px;">
+                <p>Enter > "="</p>
+                <p>Backspace > "C"</p>
+                <p>. > "."</p>
+                <p>- > "-"</p>
+            </div>
+            <div>
+                <p>Shift + "+" > "+"</p>
+                <p>Shift8 > "X"</p>
+                <p>Shift5 > "%"</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
